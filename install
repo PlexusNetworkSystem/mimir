@@ -2,8 +2,8 @@
 
 [[ $USER != "root" ]] && echo "Run with root permisson!" && exit 1
 
-pip_app_list = ( "poe-api" "pyqt5" )
-apt_app_list = ( "notify-send" )
+pip_app_list=( "poe-api" "pyqt5" )
+apt_app_list=( "notify-send" )
 
 echo "Creating /usr/share/mimir/ ..."
 mkdir /usr/share/mimir/
