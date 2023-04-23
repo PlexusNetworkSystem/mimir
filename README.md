@@ -19,7 +19,7 @@ To run the MIMIR chat app, you need to have Python 3.x, PyQt5, and poe-api insta
 ```
 pip install PyQt5 poe-api
 ```
-Once you have installed the dependencies, you need to add your Poe.com cookie to the config.ini file in the "structure" directory. To do this, open the config.ini file with a text editor, and replace "YOUR_API_KEY_HERE" with your actual cookie.
+Once you have installed the dependencies, you need to add your Poe.com cookie to the config.ini file in the "**structure**" directory. To do this, open the **config.ini** file with a text editor, and replace "**YOUR_API_KEY_HERE**" with your actual **cookie**.
 
 After you have added your API key, you can run the app by executing the following command in the terminal:
 
