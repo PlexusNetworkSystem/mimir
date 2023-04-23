@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Mimir
+Comment=Mimir for Linux
+GenericName=mimir
+Exec=bash -c "cd /usr/share/mimir/ ; bash main.sh"
+Icon=/usr/share/mimir/src/logo.png
+Type=Application
+StartupNotify=true
+Categories=Utility;

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+[[ $USER != "root" ]] && echo "Run with root permisson!" && exit 1
+
+pip_app_list = ( "poe-api" "pyqt5" )
+apt_app_list = ( "notify-send" )
+
+echo "Creating /usr/share/mimir/ ..."
+mkdir /usr/share/mimir/
+echo "Moving files to /usr/share/mimir/ ..."
+mv * /usr/share/mimir/
+
+echo "Linking desktop file"
+ln /usr/share/mimir/src/mimir.desktop /usr/share/applications
+
+echo "Editing permissons..."
+chmod 777 /usr/share/mimir
+chmod 777 /usr/share/mimir/*
+chmod 777 /usr/share/mimir/*/*
+
+
+for app in ${pip_app_list[@]}; do
+    echo -e "Installing $app ..."
+    pip install $app 1> /dev/null
+done
+
+for app in ${apt_app_list[@]}; do
+    echo -e "Installing $app ..."
+    apt install $app -yq 1> /dev/null
+done

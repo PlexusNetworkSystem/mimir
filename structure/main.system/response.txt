@@ -1,0 +1,8 @@
+Sure! Here's the "Hello, World!" program in Bash:
+
+```bash
+#!/bin/bash
+echo "Hello, World!"
+```
+
+This program simply uses the `echo` command to print out the string "Hello, World!" to the console. The first line `#!/bin/bash` is called a shebang and specifies the interpreter to use to run the script (in this case, `/bin/bash`).

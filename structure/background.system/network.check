@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+notify-send --app-name=MIMIR "Checking connection to google.com" --icon="/home/abra/Documents/GitHub/mimir/src/logo.png"
+INTERNET_CONTROL="$(ping -c 1 google.com > /dev/null)"
+STATUS=$?
+if [ $STATUS -ne 0 ]; then
+        notify-send --app-name=MIMIR "No connection to google.com" --icon="/home/abra/Documents/GitHub/mimir/src/logo.png"
+        exit
+    :   
+fi
