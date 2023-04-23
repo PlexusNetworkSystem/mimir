@@ -24,7 +24,7 @@ Once you have installed the dependencies, you need to add your Poe.com cookie to
 After you have added your API key, you can run the app by executing the following command in the terminal:
 
     🖥️ On Windows: Double-click on the "gui.py" file in the "structure/gui" folder to launch the app.
-    🐧 On Linux: Run the "main.sh" file in the "structure/gui" folder using the terminal.
+    🐧 On Linux: Run the install file using root pemisson on the terminal. After installation open mimir ai chat on app search bar.
 
 # 🚀 Usage
 
@@ -35,3 +35,34 @@ To start a conversation, enter a prompt in the input box and click the "Send" bu
 If you want to reset the model's context, click the "Reset Context" button. This will clear the model's memory and start a new conversation.
 
 To close the app, click the "X" button on the top-right corner of the window.
+
+# :satellite: Contacts :satellite:
+Discord: `Abra#1568`<br />
+Discord: `theia#6320`<br />
+Our discord server: [Click Me](https://discord.gg/R6fVaQS5We "Click Me")
+
+
+# Creating on This platform(s)
+
+<a href="https://linuxmint.com/" target="_blank"><img src="https://linuxmint.com/web/img/logo-mono.svg" alt="mint icon" height="174" width="310"></a></br>
+
+# Tested on This platform(s)
+
+<a href="https://linuxmint.com/" target="_blank"><img src="https://linuxmint.com/web/img/logo-mono.svg" alt="mint icon" height="174" width="310"></a></br>
+<a href="https://www.microsoft.com" target="_blank"><img src="https://logodownload.org/wp-content/uploads/2021/06/windows-11-logo.png" alt="windows icon" height="80" width="450"></a></br>
+
+# :credit_card: Donation :inbox_tray:
+
+Loved :two_hearts: the project:question: You can :star2:support:star2: me and my team on this sites:point_down::point_down::point_down:
+
+<a href="https://www.patreon.com/plexusnetworksystem" target="_blank"><img src="https://raw.githubusercontent.com/PlexusNetworkSystem/PlexusNetworkSystem/main/patreon.png" alt="Patreon" height="174" width="174"></a></br>
+<a href="http://www.bynogame.com/tr/destekle/plexusnetworkacademy" target="_blank"><img src="https://cdn.bynogame.com/logo/bynogame-logo-black-1678388280240.png" alt="ByNoGame" height="123" width="300"></a>
+
+# Pictures
+## Windows(11)
+![plot](https://raw.githubusercontent.com/PlexusNetworkSystem/mimir/main/src/windows.png)
+## Linux(mint 21)
+![plot](https://raw.githubusercontent.com/PlexusNetworkSystem/mimir/main/src/linux.png)
+
+------------ 
+Developed by [Abra](https://github.com/the-abra "Abra") and [Datheia](https://github.com/datheia "Datheia")
