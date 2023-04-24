@@ -38,7 +38,6 @@ To close the app, click the "X" button on the top-right corner of the window.
 
 # :satellite: Contacts :satellite:
 Discord: `Abra#1568`<br />
-Discord: `theia#6320`<br />
 Our discord server: [Click Me](https://discord.gg/R6fVaQS5We "Click Me")
 
 
